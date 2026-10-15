@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER_SEC // Elite Hacker Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+        
+        body {
+            font-family: 'Share TechMono', monospace;
+            background-color: #050505;
+            color: #00ff66;
+        }
+        .glow-text {
+            text-shadow: 0 0 10px rgba(0, 255, 102, 0.7), 0 0 20px rgba(0, 255, 102, 0.4);
+        }
+        .glow-box {
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
+            border: 1px solid rgba(0, 255, 102, 0.4);
+        }
+        .glow-box:hover {
+            box-shadow: 0 0 25px rgba(0, 255, 102, 0.5);
+            border-color: #00ff66;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050505;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #00ff66;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-[#050505] text-[#00ff66] min-h-screen flex flex-col justify-between selection:bg-[#00ff66] selection:text-black">
+
+    <!-- Top Security Header / Navbar -->
+    <header class="w-full py-4 px-6 md:px-12 flex justify-between items-center border-b border-[#00ff66]/30 bg-black/80 backdrop-blur sticky top-0 z-50">
+        <div class="flex items-center space-x-2">
+            <span class="inline-block w-3 h-3 bg-[#00ff66] rounded-full animate-ping"></span>
+            <h1 class="text-xl md:text-2xl font-bold tracking-wider glow-text">&gt; ROOT@CYBER_PORTAL:~#</h1>
+        </div>
+        <nav class="hidden md:flex space-x-8 text-sm tracking-widest">
+            <a href="#about" class="hover:text-white transition">./about</a>
+            <a href="#skills" class="hover:text-white transition">./arsenal</a>
+            <a href="#terminal" class="hover:text-white transition">./console</a>
+            <a href="#contact" class="hover:text-white transition">./contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="flex-grow max-w-6xl mx-auto px-6 py-16 w-full">
+        <section class="flex flex-col items-start justify-center min-h-[60vh] space-y-6">
+            <div class="px-3 py-1 bg-[#00ff66]/10 border border-[#00ff66]/30 text-xs tracking-widest uppercase">
+                [SYSTEM STATUS: SECURE & ENCRYPTED]
+            </div>
+            <h2 class="text-4xl md:text-7xl font-extrabold tracking-tight glow-text leading-none">
+                ADVANCED ETHICAL <br><span class="text-white">HACKER & DEVELOPER</span>
+            </h2>
+            <p class="text-slate-400 max-w-2xl text-base md:text-lg">
+                Specializing in penetration testing, vulnerability assessment, full-stack security architectures, and high-performance digital infrastructure.
+            </p>
+            <div class="flex flex-wrap gap-4 pt-4">
+                <a href="#terminal" class="px-6 py-3 bg-[#00ff66] text-black font-bold tracking-wider hover:bg-[#00cc52] transition glow-box">
+                    OPEN TERMINAL
+                </a>
+                <a href="#contact" class="px-6 py-3 border border-[#00ff66]/60 text-[#00ff66] font-bold tracking-wider hover:bg-[#00ff66]/10 transition">
+                    ESTABLISH CONNECTION
+                </a>
+            </div>
+        </section>
+
+        <!-- About / Metrics Grid -->
+        <section id="about" class="py-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-black/60 glow-box rounded">
+                <div class="text-[#00ff66] font-bold text-xl mb-2">&gt; 01. SECURITY_AUDIT</div>
+                <p class="text-slate-400 text-sm">Identifying protocol flaws, securing web apps against SQLi, XSS, and zero-day threats.</p>
+            </div>
+            <div class="p-6 bg-black/60 glow-box rounded">
+                <div class="text-[#00ff66] font-bold text-xl mb-2">&gt; 02. FULL_STACK_OPS</div>
+                <p class="text-slate-400 text-sm">Building ultra-fast, hardened web interfaces and backend microservices with maximum uptime.</p>
+            </div>
+            <div class="p-6 bg-black/60 glow-box rounded">
+                <div class="text-[#00ff66] font-bold text-xl mb-2">&gt; 03. CRYPTO_LOGIC</div>
+                <p class="text-slate-400 text-sm">Implementing advanced encryption algorithms, secure hashing protocols, and token-based auth.</p>
+            </div>
+        </section>
+
+        <!-- Skills / Arsenal Section -->
+        <section id="skills" class="py-16">
+            <h3 class="text-2xl md:text-3xl font-bold mb-8 border-b border-[#00ff66]/30 pb-2 glow-text">
+                &gt; HACKER_ARSENAL & TECHNOLOGIES
+            </h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-4 bg-black/40 border border-[#00ff66]/20 text-center hover:border-[#00ff66] transition">
+                    <span class="text-white font-bold block mb-1">Linux / Kali</span>
+                    <span class="text-xs text-[#00ff66]/70">OS & Tooling</span>
+                </div>
+                <div class="p-4 bg-black/40 border border-[#00ff66]/20 text-center hover:border-[#00ff66] transition">
+                    <span class="text-white font-bold block mb-1">Python / Bash</span>
+                    <span class="text-xs text-[#00ff66]/70">Automation Scripts</span>
+                </div>
+                <div class="p-4 bg-black/40 border border-[#00ff66]/20 text-center hover:border-[#00ff66] transition">
+                    <span class="text-white font-bold block mb-1">Network Pentesting</span>
+                    <span class="text-xs text-[#00ff66]/70">Wireshark, Nmap</span>
+                </div>
+                <div class="p-4 bg-black/40 border border-[#00ff66]/20 text-center hover:border-[#00ff66] transition">
+                    <span class="text-white font-bold block mb-1">Web Sec / OWASP</span>
+                    <span class="text-xs text-[#00ff66]/70">Burp Suite</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Terminal Simulator -->
+        <section id="terminal" class="py-16">
+            <h3 class="text-2xl md:text-3xl font-bold mb-4 border-b border-[#00ff66]/30 pb-2 glow-text">
+                &gt; LIVE_CONSOLE_SIMULATOR
+            </h3>
+            <div class="bg-black border border-[#00ff66]/50 p-6 rounded shadow-2xl font-mono text-sm">
+                <div class="flex items-center justify-between pb-4 border-b border-[#00ff66]/20 mb-4 text-xs text-slate-500">
+                    <span>bash - root@cyber-node:~</span>
+                    <span class="flex space-x-1.5">
+                        <span class="w-3 h-3 bg-red-500 inline-block rounded-full"></span>
+                        <span class="w-3 h-3 bg-yellow-500 inline-block rounded-full"></span>
+                        <span class="w-3 h-3 bg-green-500 inline-block rounded-full"></span>
+                    </span>
+                </div>
+                <div id="console-output" class="space-y-2 text-[#00ff66] min-h-[120px]">
+                    <p>&gt; initializing secure handshake...</p>
+                    <p>&gt; loading kernel modules... [OK]</p>
+                    <p>&gt; firewall bypass check: SECURE</p>
+                    <p class="text-white animate-pulse">&gt; Type a command or click buttons below to interact.</p>
+                </div>
+                <div class="flex gap-2 mt-6 pt-4 border-t border-[#00ff66]/20">
+                    <button onclick="runCommand('scan')" class="px-3 py-1 bg-[#00ff66]/20 hover:bg-[#00ff66] hover:text-black text-xs border border-[#00ff66] transition">./scan_ports</button>
+                    <button onclick="runCommand('bypass')" class="px-3 py-1 bg-[#00ff66]/20 hover:bg-[#00ff66] hover:text-black text-xs border border-[#00ff66] transition">./bypass_firewall</button>
+                    <button onclick="runCommand('clear')" class="px-3 py-1 bg-red-900/40 hover:bg-red-600 text-xs border border-red-500 text-red-300 transition">clear</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="py-16">
+            <h3 class="text-2xl md:text-3xl font-bold mb-8 border-b border-[#00ff66]/30 pb-2 glow-text">
+                &gt; SECURE_TRANSMISSION // CONTACT
+            </h3>
+            <form onsubmit="handleSubmit(event)" class="max-w-xl space-y-4 bg-black/60 p-8 glow-box rounded">
+                <div>
+                    <label class="block text-xs uppercase mb-1 tracking-widest">Alias / Codename:</label>
+                    <input type="text" required class="w-full bg-black border border-[#00ff66]/40 p-3 text-[#00ff66] focus:border-[#00ff66] outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase mb-1 tracking-widest">Encrypted Frequency (Email):</label>
+                    <input type="email" required class="w-full bg-black border border-[#00ff66]/40 p-3 text-[#00ff66] focus:border-[#00ff66] outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase mb-1 tracking-widest">Transmission Payload (Message):</label>
+                    <textarea rows="4" required class="w-full bg-black border border-[#00ff66]/40 p-3 text-[#00ff66] focus:border-[#00ff66] outline-none"></textarea>
+                </div>
+                <button type="submit" class="w-full py-3 bg-[#00ff66] text-black font-bold tracking-widest hover:bg-[#00cc52] transition">
+                    TRANSMIT SECURE DATA
+                </button>
+                <p id="form-msg" class="text-xs text-center text-white hidden pt-2"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-6 border-t border-[#00ff66]/30 bg-black text-center text-xs text-slate-500 tracking-widest">
+        <p>[ ACCESS GRANTED ] // POWERED BY GITHUB PAGES & HACKER PROTOCOL 2026</p>
+    </footer>
+
+    <!-- Interactive JavaScript -->
+    <script>
+        function runCommand(type) {
+            const output = document.getElementById('console-output');
+            let text = '';
+            if(type === 'scan') {
+                text = '<p class="text-yellow-400">&gt; Scanning target subnets... [Port 22: OPEN, Port 80: OPEN, Port 443: SECURE]</p>';
+            } else if(type === 'bypass') {
+                text = '<p class="text-green-300">&gt; Injecting payload... Firewall successfully bypassed. Root access established!</p>';
+            } else if(type === 'clear') {
+                output.innerHTML = '<p class="text-white">&gt; Console wiped clean.</p>';
+                return;
+            }
+            output.innerHTML += text;
+            output.scrollTop = output.scrollHeight;
+        }
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            const msg = document.getElementById('form-msg');
+            msg.classList.remove('hidden');
+            msg.innerText = '[+] Payload successfully encrypted & transmitted over secure socket.';
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
